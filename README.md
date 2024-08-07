@@ -32,4 +32,51 @@ This project is a food delivery application built with the MERN stack (MongoDB, 
 - Node.js and npm (or Yarn)
 - MongoDB instance
 
+## Installation
 
+## Installation
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/dev-akhilesh/MERN-Add-to-cart.git
+    cd MERN-Add-to-cart
+    ```
+
+
+2. **Install backend dependencies:**
+    Navigate to the backend directory and run:
+    ```bash
+    cd backend
+    npm install
+    ```
+3. **Install frontend dependencies:**
+    Navigate to the frontend directory and run:
+    ```bash
+    cd frontend
+    npm install
+    ```
+
+4. **Set up environment variables:**
+  Create a .env file in the backend directory with the following variables:
+    ```env
+    MONGO_PASSWORD = "your_mongo_password"
+    ```
+5. **Start the development servers:**
+
+   Open two terminals. In the first terminal, navigate to the backend directory and start the backend server:
+     ```bash
+     cd backend
+     npm start
+     ```
+
+    In the second terminal, run the frontend development server:
+    ```bash
+    cd frontend
+    npm run dev
+    ```
+The frontend server will be available at http://localhost:5173/ and the backend server at http://localhost:8080.
+
+## Usage
+Home Page: Navigate to the home page to explore featured food items and additional services.
+Products Page: View and browse available products. Add items to your cart.
+Cart Page: Adjust quantities, remove items, or clear the cart.
