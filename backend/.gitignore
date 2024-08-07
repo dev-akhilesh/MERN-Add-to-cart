@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+
+# Build outputs
+build/
+dist/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS-specific files
+*.swp
+*.swo
+
+# npm package lock
+package-lock.json
+
+# Yarn package lock
+yarn.lock
+
+# TypeScript
+*.tsbuildinfo
+
+# Other temporary files
+*.tmp
+*.temp
+
+# MongoDB local data files
+data/
+
+# Docker files
+docker-compose.override.yml
+
+# Coverage directory used by testing tools
+coverage/
+
+# Miscellaneous
+*.tgz
